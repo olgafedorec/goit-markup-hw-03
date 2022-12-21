@@ -13,6 +13,16 @@
 
     --active-button-color: #404BBF;
 }
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--white-color);
@@ -70,6 +80,14 @@ text-decoration: none;
 .header-link:hover,
 .header-link:focus {
     color: var(--iris-color);
+}
+
+.container {
+    width: 1152px;
+    padding-left: 12px;
+    padding-right: 12px;
+    outline: 1px solid salmon;
+    margin: 0 auto;
 }
 
 /* ------------HERO------------- */

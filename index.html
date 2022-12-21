@@ -11,40 +11,49 @@
       rel="stylesheet"
     />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="header-navigation">
-        <a href="./index.html" class="navigation-logo"
-          >Web<span class="studio">Studio</span></a
-        >
+      <div class="container">
+        <nav class="header-navigation">
+          <a href="./index.html" class="navigation-logo"
+            >Web<span class="studio">Studio</span></a
+          >
 
-        <ul class="navigation-list list">
+          <ul class="navigation-list list">
+            <li>
+              <a href="./index.html" class="navigation-link">Studio</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="navigation-link">Portfolio</a>
+            </li>
+            <li>
+              <a href="" class="navigation-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="list">
           <li>
-            <a href="./index.html" class="navigation-link">Studio</a>
+            <a href="mailto:info@devstudio.com" class="header-link"
+              >info@devstudio.com</a
+            >
           </li>
-          <li>
-            <a href="./portfolio.html" class="navigation-link">Portfolio</a>
-          </li>
-          <li>
-            <a href="" class="navigation-link">Contacts</a>
+          <li class="header-item">
+            <a href="tel:+110001111111" class="header-link"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
-      </nav>
-
-      <ul class="list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="header-link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="header-item">
-          <a href="tel:+110001111111" class="header-link"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <!--Hero-->
