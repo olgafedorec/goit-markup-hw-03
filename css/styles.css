@@ -37,14 +37,15 @@ body {
 }
 
 .header {
-   
-}
+    width: 1440px;
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
+margin: 0 auto;}
 
 .header-container {
   display: flex;
   width: 1440px;
-  height: 72px;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  height: 72px; 
 }
 
 .header-navigation {
@@ -246,6 +247,10 @@ color: var(--navy-blue-color);
     margin-bottom: 120px;
 }
 
+.work-item {
+border: 1px solid var(--corni-color);
+}
+
 /* ------------TEAM------------- */
 
 .team-section {
@@ -291,23 +296,15 @@ margin-top: 8px;
 .projects-section {
     width: 1440px;
     margin: 0 auto;
-    margin-bottom: 120px;
 }
 
 .projects-buttons {
     display: flex;
     margin-top: 96px;
     gap: 24px;
-}
+    justify-content: center
+    }
 
-.buttons-container {
- width: 586px;
- margin: 0 auto;
-}
-
-.space-between {
-    justify-content: space-between;
-}
 
 .filter-button {
     font-family: inherit;
@@ -315,45 +312,16 @@ margin-top: 8px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.04em;
     color: var(--iris-color);
     background-color: var(--corni-flower-color);
     border: 1px solid var(--corni-flower-color);
     border-radius: 4px;
-    cursor: pointer; 
-}
-
-.btn-all {
-    width: 69px;
-    height: 48px;
-    justify-content: center;
-}
-
-.btn-web-site {
-    width: 116px;
-    height: 48px;
-    justify-content: center;
-}
-
-.btn-app {
-    width: 78px;
-    height: 48px;
-    justify-content: center;
-}
-
-.btn-design {
-    width: 101px;
-    height: 48px;
-    justify-content: center;
-}
-
-.btn-marketing {
-    width: 126px;
-    height: 48px;
-    justify-content: center;
+    cursor: pointer;
+    height: 48px; 
+    padding-right: 24px;
+    padding-left: 24px;
 }
 
 .filter-button:hover,
@@ -378,13 +346,19 @@ border: 1px solid var(--iris-color);
     column-gap: 24px;
     row-gap: 48px;
     margin-top: 72px;
+    margin-bottom: 120px;
 }
 
 .projects-item {
     width: 360px;
     height: 420px;
+}
+
+.projects-item-text-content {
+    height: 120px;
     border: 0.5px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+        
 }
 
 .projects-title {
